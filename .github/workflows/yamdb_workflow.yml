@@ -48,7 +48,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
-          context: "{{defaultContext}}:api_yamdb"
+          context: ./api_yamdb
           push: true
           tags: marikalis/yamdb_final:latest
 
