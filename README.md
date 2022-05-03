@@ -1,5 +1,7 @@
 # Учебный проект "YaMDb API"
 
+![ workflow ](https://github.com/Marikalis/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+
 Проект YaMDb позволяет добавлять новых пользователей,
 собирает отзывы пользователей на различные произведения.
 
