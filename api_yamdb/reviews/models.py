@@ -1,10 +1,8 @@
-from django.utils import timezone
-from django.contrib.auth.models import AbstractBaseUser
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 from django.core.validators import (MaxValueValidator, MinValueValidator,
                                     RegexValidator)
 from django.db import models
-from django.contrib.auth.models import BaseUserManager
-
+from django.utils import timezone
 
 USER = 'user'
 MODERATOR = 'moderator'
@@ -38,22 +36,20 @@ class UserManager(BaseUserManager):
         return user_obj
 
     def create_staff_user(self, email, username, password=None):
-        user = self.create_user(
+        return self.create_user(
             email,
             username,
             password=password,
             role=MODERATOR
         )
-        return user
 
     def create_superuser(self, email, username, password=None):
-        user = self.create_user(
+        return self.create_user(
             email,
             username,
             password=password,
             role=ADMIN
         )
-        return user
 
 
 class User(AbstractBaseUser):

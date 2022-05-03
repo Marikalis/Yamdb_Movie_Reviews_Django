@@ -3,8 +3,8 @@ from rest_framework.routers import SimpleRouter
 from rest_framework_simplejwt import views as jwt_views
 
 from .views import (CategoryViewSet, CommentsViewSet, CreateUserViewSet,
-                    GenreViewSet, ReviewsViewSet, TitlesViewSet, UserViewSet,
-                    UserValidationViewSet)
+                    GenreViewSet, ReviewsViewSet, TitlesViewSet,
+                    UserValidationViewSet, UserViewSet)
 
 router_v1 = SimpleRouter()
 
