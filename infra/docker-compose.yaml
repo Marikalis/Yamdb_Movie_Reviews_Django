@@ -8,7 +8,7 @@ services:
       - ./.env
   web:
     build: 
-      context: ../yamdb_final
+      context: ../api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
