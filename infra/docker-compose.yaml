@@ -10,7 +10,7 @@ services:
 
   web:
     build: 
-      context: ./
+      context: ../api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
