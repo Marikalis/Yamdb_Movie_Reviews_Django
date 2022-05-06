@@ -11,7 +11,9 @@
 ### Технологии:
 - Python
 - Django
-- DRF
+- Posgresql
+- Docker, docker-compose
+- Nginx used as a Webserver
 
 ### Как запустить проект:
 
