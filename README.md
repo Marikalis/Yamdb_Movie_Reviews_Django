@@ -5,9 +5,8 @@
 Проект YaMDb позволяет добавлять новых пользователей,
 собирает отзывы пользователей на различные произведения.
 
-### Авторы:
+### Автор:
 - Maria Lisitskaya https://github.com/Marikalis
-- Alexander Morozov https://github.com/amorozov89
 
 ### Технологии:
 - Python
@@ -100,4 +99,10 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 ```
 docker-compose down -v 
+```
+
+### Адрес проекта:
+
+```
+http://62.84.120.222/admin/login/?next=/admin/ 
 ```
