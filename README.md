@@ -51,13 +51,13 @@ python3 manage.py runserver
 ## Документация к API:
 
 ```
-http://127.0.0.1:8000/redoc/
+http://62.84.120.222/redoc/
 ```
 
 Регистрация нового пользователя:
 
 ```
-http://127.0.0.1:8000/api/v1/auth/signup/
+http://62.84.120.222/api/v1/auth/signup/
 ```
 
 ## Запуск Docker:
