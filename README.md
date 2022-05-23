@@ -84,4 +84,4 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose down -v 
 ```
 
-![Адрес проекта](http://62.84.120.222/)
+[Адрес проекта](http://62.84.120.222/)
