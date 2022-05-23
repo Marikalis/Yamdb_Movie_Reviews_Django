@@ -21,35 +21,16 @@
 
 ```
 git clone https://github.com/Marikalis/api_yambd.git
-```
-
-```
 cd api_yambd
 ```
 
-Cоздать и активировать виртуальное окружение:
+Cоздать и активировать виртуальное окружение, установить зависимости из файла requirements.txt и выполнить миграции:
 
 ```
 python3 -m venv env
-```
-
-```
 source env/bin/activate
-```
-
-Установить зависимости из файла requirements.txt:
-
-```
 python3 -m pip install --upgrade pip
-```
-
-```
 pip install -r requirements.txt
-```
-
-Выполнить миграции:
-
-```
 python3 manage.py migrate
 ```
 
@@ -103,8 +84,4 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose down -v 
 ```
 
-### Адрес проекта:
-
-```
-http://62.84.120.222/admin/login/?next=/admin/ 
-```
+![Адрес проекта](http://62.84.120.222/admin/login/?next=/admin/)
